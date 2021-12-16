@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="Smoke Test"></include>
+		</run>
+	</groups> 
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Vtiger.TC.POMTC_002_CreateOrganizationDropdownTest"/>
+      <class name="com.Vtiger.TC.POMTC_003_CreateContactWithOrganisationTest"/>
+      <class name="com.Vtiger.TC.POMTC_001_CreateOraganizationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
